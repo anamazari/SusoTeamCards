@@ -1,0 +1,195 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+ *, *:before, *:after {
+     box-sizing: border-box;
+}
+ body {
+     background: linear-gradient(to bottom, rgba(140, 122, 122, 1) 0%, rgba(175, 135, 124, 1) 65%, rgba(175, 135, 124, 1) 100%) fixed;
+     background: url('https://convertingcolors.com/gradient-009682.svg') no-repeat center center fixed;
+     background-size: cover;
+     font: 14px/20px "Lato", Arial, sans-serif;
+     color: #9e9e9e;
+     margin-top: 30px;
+}
+ .slide-container {
+     margin: auto;
+     width: 600px;
+     text-align: center;
+}
+ .wrapper {
+     padding-top: 40px;
+     padding-bottom: 40px;
+}
+ .wrapper:focus {
+     outline: 0;
+}
+ .clash-card {
+     background: rgb(255, 255, 255);
+     width: 300px;
+     display: inline-block;
+     margin: auto;
+     border-radius: 19px;
+     position: relative;
+     text-align: center;
+     box-shadow: -1px 15px 30px -12px black;
+     z-index: 9999;
+}
+ .clash-card__image {
+     position: relative;
+     height: 230px;
+     margin-bottom: 35px;
+     border-top-left-radius: 14px;
+     border-top-right-radius: 14px;
+}
+ .clash-card__image--piano {
+     background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/piano-bg.jpg');
+}
+ .clash-card__image--piano img {
+     width: 230px;
+     position: absolute;
+     top: 5px;
+     left: 35px;
+}
+ .clash-card__image--comunication {
+     background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/comunication-bg.jpg');
+}
+ .clash-card__image--comunication img {
+     width: 250px;
+     position: absolute;
+     top: 5px;
+     left: 28px;
+}
+ .clash-card__image--writing {
+     background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/writing-bg.jpg');
+}
+ .clash-card__image--writing img {
+     width: 250px;
+     position: absolute;
+     top: 10px;
+     left: 28px;
+}
+ .clash-card__image--comediant {
+     background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/comediant-bg.jpg');
+}
+ .clash-card__image--comediant img {
+     width: 150px;
+     position: absolute;
+     top: 15px;
+     left: 70px;
+}
+ .clash-card__image--book {
+     background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/book-bg.jpg');
+}
+ .clash-card__image--book img {
+     width: 250px;
+     position: absolute;
+     top: 50px;
+     left: 28px;
+}
+ .clash-card__level {
+     text-transform: uppercase;
+     font-size: 12px;
+     font-weight: 700;
+     margin-bottom: 3px;
+}
+ .clash-card__level--piano {
+     color: #ec9b3b;
+}
+ .clash-card__level--comunication {
+     color: #ee5487;
+}
+ .clash-card__level--writing {
+     color: #f6901a;
+}
+ .clash-card__level--comediant {
+     color: #82bb30;
+}
+ .clash-card__level--book {
+     color: #4facff;
+}
+ .clash-card__unit-name {
+     font-size: 26px;
+     color: black;
+     font-weight: 900;
+     margin-bottom: 5px;
+}
+ .clash-card__unit-description {
+     padding: 20px;
+     margin-bottom: 10px;
+}
+ .clash-card__unit-stats--piano {
+     background: #ec9b3b;
+}
+ .clash-card__unit-stats--piano .one-third {
+     border-right: 1px solid #bd7c2f;
+}
+ .clash-card__unit-stats--comunication {
+     background: #ee5487;
+}
+ .clash-card__unit-stats--comunication .one-third {
+     border-right: 1px solid #d04976;
+}
+ .clash-card__unit-stats--writing {
+     background: #f6901a;
+}
+ .clash-card__unit-stats--writing .one-third {
+     border-right: 1px solid #de7b09;
+}
+ .clash-card__unit-stats--comediant {
+     background: #82bb30;
+}
+ .clash-card__unit-stats--comediant .one-third {
+     border-right: 1px solid #71a32a;
+}
+ .clash-card__unit-stats--book {
+     background: #4facff;
+}
+ .clash-card__unit-stats--book .one-third {
+     border-right: 1px solid #309eff;
+}
+ .clash-card__unit-stats {
+     color: white;
+     font-weight: 700;
+     border-bottom-left-radius: 14px;
+     border-bottom-right-radius: 14px;
+}
+ .clash-card__unit-stats .one-third {
+     width: 33%;
+     float: left;
+     padding: 20px 15px;
+}
+ .clash-card__unit-stats sup {
+     position: absolute;
+     bottom: 4px;
+     font-size: 45%;
+     margin-left: 2px;
+}
+ .clash-card__unit-stats .stat {
+     position: relative;
+     font-size: 24px;
+     margin-bottom: 10px;
+}
+ .clash-card__unit-stats .stat-value {
+     text-transform: uppercase;
+     font-weight: 400;
+     font-size: 12px;
+}
+ .clash-card__unit-stats .no-border {
+     border-right: none;
+}
+ .clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+ .slick-prev {
+     left: 100px;
+     z-index: 999;
+}
+ .slick-next {
+     right: 100px;
+     z-index: 999;
+}
+ 
